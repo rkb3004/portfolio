@@ -212,7 +212,9 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.btn-primary { border-color: var(--color-primary); }
+.btn-primary { 
+  
+  border-color: var(--color-primary); }
 
 .btn-primary:is(:hover, :focus) {
   background: var(--color-primary);
@@ -483,8 +485,10 @@ main { overflow-x: hidden; }
 .hero-content { max-width: 450px; }
 
 .hero-title {
+  font-size: 4rem;
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 10px; */
+  margin-top: -120px;
 }
 
 .hero .btn-primary { margin-inline: auto; }
